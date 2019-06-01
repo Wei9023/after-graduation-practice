@@ -44,3 +44,6 @@ const fetchPeopleWithAsync = async() =>{
 
     return names;
 };
+
+fetchPeopleWithAsync()
+.then(people => console.og({people}));
